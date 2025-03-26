@@ -1,0 +1,15 @@
+{
+  "nike-air-zoom-pegasus-39": {
+    "price": {
+      "US": "$120",
+      "UK": "£105"
+    },
+    "sizes": ["US 7", "US 8", "US 9"],
+    "availability": ["US", "UK"],
+    "images": [
+      { "src": "/assets/nike/pegasus-front.jpg", "alt": "Front view" },
+      { "src": "/assets/nike/pegasus-side.jpg", "alt": "Side view" }
+    ]
+  }
+}
+

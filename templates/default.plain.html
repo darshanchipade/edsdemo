@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>${Title}</title>
+  <link rel="stylesheet" href="/styles/product.css" />
+</head>
+<body>
+  <main>
+    <h1>${Title}</h1>
+    <div class="block summary"></div>
+    <div class="block images"></div>
+    <div class="block specs"></div>
+    <div class="block cta">${Call to Action}</div>
+  </main>
+  <script type="module">
+    import decorateBlocks from '/scripts/decorate-blocks.js';
+    decorateBlocks();
+  </script>
+</body>
+</html>
+

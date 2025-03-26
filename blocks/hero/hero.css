@@ -1,37 +1,57 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
-.hero {
+.hero-json .hero-content {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+/* Optional: dark overlay for readability */
+.hero-json .hero-content::before {
+  content: "";
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 0;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.hero-json h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  max-width: 800px;
+  position: relative;
+  z-index: 1;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero-json .hero-button {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #0072ef;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-json .hero-button:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive text sizing */
+@media (max-width: 768px) {
+  .hero-json h1 {
+    font-size: 2rem;
   }
-}
+
+  .hero-json .hero-button {
+    padding: 12px 24px;
+    font-size: 1rem

@@ -12,7 +12,7 @@
   
   .slider {
     width: 100%;
-    max-width: 960px;
+    max-width: 450;
     height: 450px;
     position: relative;
     overflow: hidden; 
@@ -32,8 +32,8 @@
     position: absolute;
     width: 100%;
     top:60%;
-    color: #fff;
-    text-align: center;
+    color: black;
+    text-align: bottom;
   }
   
   .btn {

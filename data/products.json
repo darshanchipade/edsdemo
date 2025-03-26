@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/images/BLAZER+LOW+'77+PRM.png",
+    "name": "Running Shoes",
+    "price": "$79.99",
+    "link": "https://example.com/shoes"
+  },
+  {
+    "image": "/images/BLAZER+LOW+PRO+GT.png",
+    "name": "Hoodie",
+    "price": "$59.99",
+    "link": "https://example.com/hoodie"
+  },
+  {
+    "image": "/images/BLAZER+MID+'77+VNTG.png",
+    "name": "Smart Watch",
+    "price": "$129.99",
+    "link": "https://example.com/watch"
+  }
+]
