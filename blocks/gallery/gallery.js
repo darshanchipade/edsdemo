@@ -59,3 +59,4 @@ export default async function decorate(block) {
   galleryWrapper.appendChild(thumbnails);
   block.appendChild(galleryWrapper);
 }
+      

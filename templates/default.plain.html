@@ -5,6 +5,7 @@
   <title>Product Display</title>
   <link rel="stylesheet" href="/blocks/info/info.css" />
   <link rel="stylesheet" href="/blocks/gallery/gallery.css" />
+    <link rel="stylesheet" href="/style/layout.css" />
   <style>
     main {
       padding: 2rem;
@@ -13,20 +14,18 @@
       font-size: 2rem;
       margin-bottom: 1.5rem;
     }
-    .product-layout {
-      display: flex;
-      gap: 2rem;
-      flex-wrap: wrap;
-      align-items: flex-start;
-    }
   </style>
 </head>
 <body>
   <main>
+<div class="product-finder">
+  <input type="text" id="product-search" placeholder="Search products..." />
+  <button id="search-btn">Search</button>
+</div>
     <h1>Nike Air Zoom Pegasus 39</h1>
     <div class="product-layout">
-      <div class="block gallery"></div>
-      <div class="block info"></div>
+      <div class="gallery-wrapper"></div>
+      <div class="info-wrapper"></div>
     </div>
   </main>
   <script type="module">
