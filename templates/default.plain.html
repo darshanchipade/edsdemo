@@ -3,14 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <title>Product Display</title>
-  <link rel="stylesheet" href="/styles/product.css" />
+  <link rel="stylesheet" href="/blocks/info/info.css" />
+  <link rel="stylesheet" href="/blocks/gallery/gallery.css" />
+  <style>
+    main {
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .product-layout {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  </style>
 </head>
 <body>
   <main>
     <h1>Nike Air Zoom Pegasus 39</h1>
     <div class="product-layout">
       <div class="block gallery"></div>
-      <div class="product-text block info"></div>
+      <div class="block info"></div>
     </div>
   </main>
   <script type="module">
