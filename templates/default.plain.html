@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>${title}</title>
+  <title>Product Display</title>
   <link rel="stylesheet" href="/styles/product.css" />
 </head>
 <body>
   <main>
-    <h1>${title}</h1>
-    <div class="block gallery"></div>
-    ${body}
+    <h1>Nike Air Zoom Pegasus 39</h1>
+    <div class="product-layout">
+      <div class="block gallery"></div>
+      <div class="product-text block info"></div>
+    </div>
   </main>
   <script type="module">
     import decorateBlocks from '/scripts/decorate-blocks.js';

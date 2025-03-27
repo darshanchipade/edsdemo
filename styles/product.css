@@ -1,101 +1,35 @@
-/* General Reset */
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
-}
-
-/* Layout */
-main {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 8px;
-}
-
-/* Product Title */
-h1 {
-  font-size: 2.25rem;
-  margin-bottom: 0.5rem;
-  color: #111;
-}
-
-/* Summary */
-.summary {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  color: #555;
-}
-
-/* Features List */
-.features p {
-  background-color: #eef6f9;
-  padding: 0.5rem 1rem;
-  margin: 0.25rem 0;
-  border-left: 4px solid #0070c0;
-}
-
-/* Product Images */
-.images {
+.product-layout {
   display: flex;
+  gap: 2rem;
+  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin: 1rem 0;
 }
-.images img {
-  max-width: 300px;
+.carousel-wrapper {
+  max-width: 400px;
+}
+.main-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.thumbnails {
+  display: flex;
+  gap: 0.5rem;
+}
+.thumbnail {
+  width: 60px;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
 }
-
-/* Price Section */
-.price {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 1rem 0;
-  color: #cc0000;
+.thumbnail:hover {
+  border-color: #0070f3;
 }
-
-/* Sizes */
-.sizes {
-  margin: 1rem 0;
+.product-text {
+  max-width: 500px;
 }
-.sizes .size {
-  display: inline-block;
-  margin: 0.25rem;
-  padding: 0.5rem 1rem;
-  background-color: #efefef;
-  border-radius: 20px;
-  font-size: 0.9rem;
+.product-summary, .product-description {
+  margin-top: 1rem;
 }
-
-/* Availability */
-.availability {
-  font-style: italic;
-  color: #777;
-  margin-bottom: 2rem;
-}
-
-/* Call to Action */
-.cta {
-  margin-top: 2rem;
-  padding: 1rem;
-  text-align: center;
-}
-.cta a {
-  background-color: #0070c0;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.2s ease;
-}
-.cta a:hover {
-  background-color: #005b9f;
-}
-
