@@ -1,0 +1,12 @@
+{
+  "nike-air-zoom-pegasus-39": {
+    "title": "Nike Air Zoom Pegasus 39",
+    "summary": "The Nike Air Zoom Pegasus 39 is a lightweight running shoe built for daily miles.",
+    "description": "With Zoom Air units and engineered mesh, it offers breathable comfort and responsive cushioning.",
+    "images": [
+      { "src": "/images/peg_front.png", "alt": "Front view" },
+      { "src": "/images/peg_side.png", "alt": "Side view" },
+      { "src": "/images/peg_heel.png", "alt": "Heel view" }
+    ]
+  }
+}
