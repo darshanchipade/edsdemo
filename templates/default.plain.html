@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>${Title}</title>
-  <link rel="stylesheet" href="/styles/product.css" />
+  <meta charset="UTF-8" />
+  <title>Nike Product</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
 </head>
 <body>
   <main>
-    <h1>${Title}</h1>
-    <div class="block summary"></div>
-    <div class="block images"></div>
-    <div class="block specs"></div>
-    <div class="block cta">${Call to Action}</div>
+    <!-- EDS will auto-insert content from .md here -->
   </main>
-  <script type="module">
-    import decorateBlocks from '/scripts/decorate-blocks.js';
-    decorateBlocks();
-  </script>
 </body>
 </html>
-
