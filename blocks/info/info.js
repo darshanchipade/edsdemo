@@ -10,11 +10,11 @@ export default async function decorate(block) {
 
   block.innerHTML = `
     <div class="product-summary">
-      <h2>Summary</h2>
+      
       <p>${summary}</p>
     </div>
     <div class="product-description">
-      <h2>Description</h2>
+      <h3>Product Details</h3>
       <p>${description}</p>
     </div>
   `;

@@ -3,18 +3,18 @@
     "image": "/images/BLAZER+LOW+'77+PRM.png",
     "name": "Running Shoes",
     "price": "$79.99",
-    "link": "https://example.com/shoes"
+    "link": "/products/nike-air-zoom-pegasus-39"
   },
   {
     "image": "/images/BLAZER+LOW+PRO+GT.png",
-    "name": "Hoodie",
+    "name": "Airmax",
     "price": "$59.99",
-    "link": "https://example.com/hoodie"
+    "link": "/products/nike-air-zoom-pegasus-39"
   },
   {
     "image": "/images/BLAZER+MID+'77+VNTG.png",
-    "name": "Smart Watch",
+    "name": "Skate Blazer",
     "price": "$129.99",
-    "link": "https://example.com/watch"
+    "link": "/products/nike-air-zoom-pegasus-39"
   }
 ]
