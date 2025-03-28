@@ -10,6 +10,39 @@ export default async function decorate(block) {
     const cta = document.createElement('div');
 cta.className = 'add-to-bag';
 cta.innerHTML = '<button>Add to Bag</button>';
+    
+    const btn = cta.querySelector('button');
+  btn.addEventListener('click', () => {
+    const selectedSize = document.querySelector('.size-options button.selected')?.dataset.size;
+    const quantity = document.querySelector('#quantity')?.value || 1;
+
+    if (!selectedSize) {
+      alert('Please select a size.');
+      return;
+    }
+
+    const productId = window.location.pathname.split('/').pop();
+    const title = document.querySelector('h1')?.textContent;
+    const image = document.querySelector('.main-image')?.getAttribute('src');
+    const description = document.querySelector('.product-summary p')?.textContent;
+
+    const item = {
+      productId,
+      title,
+      image,
+      description,
+      size: selectedSize,
+      quantity: parseInt(quantity, 10)
+    };
+
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(item);
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    alert('Added to bag!');
+    window.location.href = '/checkout/checkout'
+  });
+
 
   block.innerHTML = `
     <div class="product-summary">
@@ -48,32 +81,5 @@ cta.innerHTML = '<button>Add to Bag</button>';
   });
 });
 
-// Add to Bag logic
-document.querySelector('.add-to-bag button')?.addEventListener('click', () => {
-  const selectedSize = document.querySelector('.size-options button.selected')?.dataset.size;
-  const quantity = document.querySelector('#quantity')?.value || 1;
-
-  if (!selectedSize) {
-    alert('Please select a size.');
-    return;
-  }
-
-  // ✅ Extract product ID from URL
-  const pathSegments = window.location.pathname.split('/');
- const productId = pathSegments[pathSegments.length - 1] || 'unknown-product';
-
-  const item = {
-    productId,
-    size: selectedSize,
-    quantity: parseInt(quantity, 10)
-  };
-
-  // ✅ Simulate cart in localStorage
-  const cart = JSON.parse(localStorage.getItem('cart')) || [];
-  cart.push(item);
-  localStorage.setItem('cart', JSON.stringify(cart));
-
-  alert('Added to bag!');
-});
     block.appendChild(cta);
 }
