@@ -29,7 +29,7 @@
   }
 
   div.slide-text{
-    position: center;
+    position: absolute;
     width: 100%;
     top:60%;
     color: black;
