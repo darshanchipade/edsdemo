@@ -1,5 +1,5 @@
 .main-banner {
-  background-size: cover;
+  background-size: 1100px;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
@@ -15,7 +15,7 @@
 }
 
 .main-banner-content {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -34,7 +34,7 @@
   padding: 14px 28px;
   font-size: 1rem;
   font-weight: 600;
-  background-color: black;
+  background-color: white;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -42,7 +42,7 @@
 }
 
 .main-banner-button:hover {
-  background-color: #005bb5;
+  background-color: Black;
 }
 
 @media (max-width: 768px) {

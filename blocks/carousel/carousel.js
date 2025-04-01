@@ -11,14 +11,14 @@ export default function decorate(block) {
           const nextbtn = document.createElement('button');
           nextbtn.classList.add('btn');
           nextbtn.classList.add('btn-next');
-         const node = document.createTextNode(btnNxt);
+         const node = document.createTextNode(">>");
          nextbtn.append(node);
          row.replaceWith(nextbtn);
       }else if(r==rows.length-1){
           const prebtn = document.createElement('button');
           prebtn.classList.add('btn');
           prebtn.classList.add('btn-prev');
-          const node = document.createTextNode(btnPre);
+          const node = document.createTextNode("<<");
           prebtn.append(node);
           row.replaceWith(prebtn);
       }else{
