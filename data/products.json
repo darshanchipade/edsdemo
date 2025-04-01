@@ -1,18 +1,18 @@
 [
   {
-    "image": "/images/BLAZER+LOW+'77+PRM.png",
+    "image": "/images/BLAZERLOW77PRM.png",
     "name": "Running Shoes",
     "price": "$79.99",
     "link": "/products/nike-air-zoom-pegasus-39"
   },
   {
-    "image": "/images/BLAZER+LOW+PRO+GT.png",
+    "image": "/images/BLAZERLOWPROGT.png",
     "name": "Airmax",
     "price": "$59.99",
     "link": "/products/nike-air-zoom-pegasus-39"
   },
   {
-    "image": "/images/BLAZER+MID+'77+VNTG.png",
+    "image": "/images/BLAZERMID77VNTG.png",
     "name": "Skate Blazer",
     "price": "$129.99",
     "link": "/products/nike-air-zoom-pegasus-39"

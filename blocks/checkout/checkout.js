@@ -3,8 +3,14 @@ export default async function decorate(block) {
   block.innerHTML = '';
 
   if (cart.length === 0) {
-    block.innerHTML = '<p>Your bag is empty.</p>';
-    return;
+    block.innerHTML = `<p>Your bag is empty.</p>
+      <button class="return-shopping-button">Return to Shopping</button>`;
+      block.querySelector('.return-shopping-button')?.addEventListener('click', () => {
+    window.location.href = '/';
+  });
+    return ;
+      
+      
   }
 
   let total = 0;
