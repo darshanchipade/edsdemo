@@ -1,5 +1,5 @@
 .main-banner {
-  background-size: 1100px;
+  background-size: 1030px;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
@@ -8,11 +8,6 @@
   text-align: center;
 }
 
-.main-banner-overlay {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 60px 20px;
-  border-radius: 12px;
-}
 
 .main-banner-content {
   max-width: 900px;
@@ -21,7 +16,6 @@
 
 .main-banner h1 {
   font-size: 3rem;
-  margin-bottom: 16px;
 }
 
 .subheading {
