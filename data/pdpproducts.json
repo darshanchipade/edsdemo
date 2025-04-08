@@ -10,10 +10,8 @@
         { "src": "/images/peg_side.png", "alt": "Side view" },
       { "src": "/images/peg_heel.png", "alt": "Heel view" },
         { "src": "/images/peg_side.png", "alt": "Side view" },
-      { "src": "/images/peg_heel.png", "alt": "Heel view" },
-        { "src": "/images/peg_front.png", "alt": "Front view" },
-      { "src": "/images/peg_side.png", "alt": "Side view" },
       { "src": "/images/peg_heel.png", "alt": "Heel view" }
+        
     ]
   }
 }
