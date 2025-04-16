@@ -1,0 +1,16 @@
+{
+  "description": {
+    "heading": "Product Overview",
+    "text": "This is a high-performance shoe designed for runners who demand comfort and durability."
+  },
+  "details": {
+    "material": "Mesh & Rubber",
+    "color": "Black/White",
+    "weight": "280g"
+  },
+  "reviews": [
+    { "stars": 5, "quote": "Absolutely love these shoes!", "author": "Alice" },
+    { "stars": 4, "quote": "Very comfortable and stylish.", "author": "Bob" },
+    { "stars": 3, "quote": "Good, but could be better.", "author": "Charlie" }
+  ]
+}

@@ -56,11 +56,11 @@ cta.innerHTML = '<button>Add to Bag</button>';
 <div class="product-sizes">
   <label>Select Size:</label>
   <div class="size-options">
-    <button data-size="US7">US 7</button>
-    <button data-size="US8">US 8</button>
-    <button data-size="US9">US 9</button>
-    <button data-size="US10">US 10</button>
-    <button data-size="US11">US 11</button>
+    <button data-size="US7">M7/W8.5/</button>
+    <button data-size="US8">M8/W9.5</button>
+    <button data-size="US9">M9/W10.5</button>
+    <button data-size="US10">M10/W11.5</button>
+    <button data-size="US11">M11/12.5</button>
   </div>
 </div>
 

@@ -1,0 +1,25 @@
+.product-description,.product-reviews {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+}
+
+.product-description h2,
+.product-reviews h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+
+
+.review {
+  margin-bottom: 1rem;
+  border-top: 1px solid #ddd;
+  padding-top: 0.5rem;
+}
+
+.stars {
+  color: #f5a623;
+  font-size: 1.2rem;
+}
