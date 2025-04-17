@@ -107,7 +107,7 @@
 
 .section.gallery-container > .default-content-wrapper {
   position: absolute;
-  left: 758px;
+  left: 50%;
 }
 
 .section.gallery-container > .info-wrapper {
